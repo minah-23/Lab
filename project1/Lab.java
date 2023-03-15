@@ -7,27 +7,27 @@ import java.util.Scanner;
 public class Lab {
 
     public static void main(String[] args) {
-//        Vector a = new Vector(1, 1);    //intialize vector a = 1i, 1j
-//        Vector b = new Vector(2, 3);    //intialize vector b = 2i, 3j
-//        Vector c, d;
-//        Point2D p1 = new Point2D.Double(3,8);
-//
-//        //Question 1
-//        c = Vector.add(a, b);         // vector c is the add of a and b vectors
-//        c.print();
-//
-//        d = Vector.sub(b, a);         // vector c is the sub of a and b vectors
-//        d.print();
-//        
-//        b.read();                         // function read()
-//        b.print();
-//
-//        //Question 2
-//        Line2D line1 = new Line2D(p1,b);          //initalize line1 based on passed point and  vector
-//        Line2D line2 = new Line2D(1,2);       //initalize line2 based on passed x and y coordinates
-//        
-//        line1.print();
-//        line2.print();
+        Vector a = new Vector(1, 1);    //intialize vector a = 1i, 1j
+        Vector b = new Vector(2, 3);    //intialize vector b = 2i, 3j
+        Vector c, d;
+        Point2D p1 = new Point2D.Double(3,8);
+
+        //Question 1
+        c = Vector.add(a, b);         // vector c is the add of a and b vectors
+        c.print();
+
+        d = Vector.sub(b, a);         // vector c is the sub of a and b vectors
+        d.print();
+        
+        b.read();                         // function read()
+        b.print();
+
+        //Question 2
+        Line2D line1 = new Line2D(p1,b);          //initalize line1 based on passed point and  vector
+        Line2D line2 = new Line2D(1,2);       //initalize line2 based on passed x and y coordinates
+        
+        line1.print();
+        line2.print();
         
         //Question 3
         MyStringBuffer x= new MyStringBuffer("Welcome");    //define string
